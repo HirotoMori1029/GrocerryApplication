@@ -10,7 +10,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/idRVNotes" />
+        android:id="@+id/idRVNotes"
+        android:background="@color/black_shade1"
+        tools:listitem="@layout/note_rv_item"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
